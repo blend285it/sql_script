@@ -1,0 +1,66 @@
+USE master;
+GO
+CREATE DATABASE Xweb;
+GO
+USE Xweb;
+GO
+CREATE TABLE XR77CX_244(
+	ID INT IDENTITY(1,1),
+    deviceID CHAR(20) NOT NULL,
+    deviceName VARCHAR(50) NOT NULL,
+    Test_SensorName_Name CHAR(20),
+    Probe_2 CHAR(20),
+    SetPoint_R CHAR(20),
+    TEST CHAR(20),
+    SetPoint CHAR(20),
+    Generic_Digital_Input CHAR(20),
+    Energy_Saving CHAR(20),
+    Zig CHAR(20),
+    Keyboard CHAR(20),
+    Defrost CHAR(20),
+    [On] CHAR(20),
+    Fan CHAR(20),
+    Cooling CHAR(20),
+    Alarm CHAR(20),
+    EEPROM_Failure CHAR(20),
+    Error_Pb2 CHAR(20),
+    Low_Value_Pb2 CHAR(20),
+    Bst CHAR(20),
+    Error_Pb1 CHAR(20),
+    Open_Door CHAR(20),
+    BOOM CHAR(20),
+    test_3333 CHAR(20),
+    No_Link CHAR(20),
+	[DateTime] VARCHAR(50),
+);
+GO
+CREATE TABLE XR70CX_1(
+	ID INT IDENTITY(1,1),
+	deviceID CHAR(20) NOT NULL,
+	deviceName VARCHAR(50) NOT NULL,
+	Probe_1 CHAR(20),
+	Probe_2 CHAR(20),
+	SetPoint_R CHAR(20),
+	Probe_R CHAR(20),
+	SetPoint CHAR(20),
+	Generic_Digital_Input CHAR(20),
+	Energy_Saving CHAR(20),
+	Fast_Freezing CHAR(20),
+	Keyboard CHAR(20),
+	Defrost CHAR(20),
+	[On] CHAR(20),
+	Fan CHAR(20),
+	Cooling CHAR(20),
+	Alarm CHAR(20),
+	EEPROM_Failure CHAR(20),
+	Error_Pb2 CHAR(20),
+	Low_Value_Pb2 CHAR(20),
+	Low_Value_Pb1 CHAR(20),
+	Error_Pb1 CHAR(20),
+	Open_Door CHAR(20),
+	High_Value_Pb2 CHAR(20),
+	High_Value_Pb1 CHAR(20),
+	No_Link CHAR(20),
+	[DateTime] VARCHAR(50),
+);
+GO
